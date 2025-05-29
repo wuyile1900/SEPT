@@ -1,5 +1,5 @@
 # SEPT
-Source code for paper Wireless Point Cloud Transmission, https://arxiv.org/abs/2306.08730
+Source code for the conference paper, [Wireless Point Cloud Transmission](https://ieeexplore.ieee.org/document/10694621), in SPAWC 2024. 
 
 ## Motivation
 There have already been considerable amount of works for semantic communications concerning images, speech and videos, while the transmission of point cloud is relatively less explored. Engineerers in the past would first compress the point cloud into bits using point cloud compression algorithm (e.g., [G-PCC & V-PCC](https://mpeg-pcc.org/index.php/publications/an-overview-of-ongoing-point-cloud-compression-standardization-activities-video-based-v-pcc-and-geometry-based-g-pcc/)) and the use channel codes to protect them. This would cause cliff and leveling effects. This work serves as one of the pioneering works introducing a deep joint source channel coding (DeepJSCC) approach to avoid the cliff effect and achieving impressive reconstruction performance.
@@ -50,14 +50,16 @@ The proposed SEPT is more beneficial for handling small point clouds (e.g., in t
 ## Citation
 If you find the code helpful in your research or work, please consider cite:
 ```
-@misc{sept,
-      title={Wireless Point Cloud Transmission}, 
-      author={Chenghong Bian and Yulin Shao and Deniz Gunduz},
-      year={2023},
-      eprint={2306.08730},
-      archivePrefix={arXiv},
-      primaryClass={eess.SP}
-}
+@INPROCEEDINGS{SEPT,
+  author={Bian, Chenghong and Shao, Yulin and Gündüz, Deniz},
+  booktitle={2024 IEEE 25th International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)}, 
+  title={Wireless Point Cloud Transmission}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={851-855},
+  keywords={Point cloud compression;Wireless communication;Wireless sensor networks;Adaptation models;Three-dimensional displays;Transmitters;Bandwidth;Sensors;Numerical models;Standards;Joint source-channel coding;neural networks;point cloud;semantic communication},
+  doi={10.1109/SPAWC60668.2024.10694621}}
 ```
 
 ## Acknowledgements
